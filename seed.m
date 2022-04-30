@@ -9,6 +9,7 @@ im = medfilt2(im,[4 4]);
 waitfor(msgbox("Mark any number of hemorrhages:"));
 imshow(im,[])
 for i = 1:10 %up to ten seeds in one picture
+    title("Click on a hemorrhage:")
     [x_point,y_point] = ginput(1);
     hold on
     x(i) = round(x_point);
