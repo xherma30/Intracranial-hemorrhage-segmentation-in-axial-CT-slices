@@ -5,3 +5,4 @@ Files description:
 **hemo_subset** - original CT images with hemorrhage;
 **automatic.m** - code for an automatic segmentation;
 **seed.m** - final semi-automatic approach;
+**area.m** - function for region growing;
